@@ -130,7 +130,7 @@ STATIC_URL = 'static/'
 
 # Establecer el modelo de usuario personalizado
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-user-model
-AUTH_USER_MODEL = 'users.User'
+# AUTH_USER_MODEL = 'users.User'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
