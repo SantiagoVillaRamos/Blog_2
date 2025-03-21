@@ -4,6 +4,7 @@ from django.db import models
 class Post(models.Model):
     title = models.CharField(max_length=255, verbose_name='titulo')
     description = models.TextField(verbose_name='descripcion')
+    order = models.IntegerField(default=1, verbose_name='orden')
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='creado el')
 
     class Meta:
